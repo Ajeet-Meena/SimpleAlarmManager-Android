@@ -16,7 +16,7 @@ Example:-
  new SimpleAlarmManager(MainActivity.this).setup(-1, 12, 0, 0).register(1).start();
 ```
 
-**Handle on Boot/Restart, onTimeChange and onTimeZoneChange case **
+**Handle on Boot/Restart, onTimeChange and onTimeZoneChange case**
 
 Create onBoot, OnTimeChange and OnTimeZoneChange broadcast receiver and add it on Manifest as given:
 
@@ -78,7 +78,7 @@ Register OnTimeChangeReceiver on Manifest as follows.
             </intent-filter>
         </receiver>
 ```
-*1) OnTimeZoneChangeReceiver*
+*3) OnTimeZoneChangeReceiver*
 ```java
 public class OnTimeChangeReceiver extends BroadcastReceiver {
     @Override
