@@ -19,17 +19,17 @@ import java.util.Set;
  * Created by Ajeet Kumar Meena on 29-10-2015.
  */
 public class SimpleAlarmManager {
-    Context context;
-    Intent alarmIntent;
-    int hourOfDay;
-    int minuteOfDay;
-    int secondOfDay;
-    Calendar calendar;
-    int id;
-    long interval;
+    private Context context;
+    private Intent alarmIntent;
+    private int hourOfDay;
+    private int minuteOfDay;
+    private int secondOfDay;
+    private Calendar calendar;
+    private int id;
+    private long interval;
     public final static long INTERVAL_DAY = AlarmManager.INTERVAL_DAY;
-    static Boolean isInitWithId = Boolean.FALSE;
-    PendingIntent pendingIntent;
+    private static Boolean isInitWithId = Boolean.FALSE;
+    private PendingIntent pendingIntent;
 
 
 
